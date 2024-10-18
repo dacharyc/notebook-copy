@@ -18,6 +18,7 @@ the source files live in a `notebooks` directory in the `notebook-source` repo.
 The files in that directory are copied to the root of this repository, so you
 see the structure here that is more intuitive for developers to parse:
 
+```
 ├── create-embeddings
 │   ├── ...notebooks
 ├── integrations
@@ -30,6 +31,7 @@ see the structure here that is more intuitive for developers to parse:
 │   ├── ...notebooks
 ├── quick-start.ipynb
 └── README.md
+```
 
 Any source files that are _outside_ of the `notebooks` directory in the
 `notebook-source` repository are _not_ copied to this destination repository.
